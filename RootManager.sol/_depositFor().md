@@ -1,4 +1,4 @@
-
+```solidity
 function depositFor(
     address user,
     address rootToken,
