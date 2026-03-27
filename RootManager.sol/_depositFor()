@@ -1,4 +1,4 @@
- ```perl */
+ ```js
     function depositFor(
         address user,
         address rootToken,
