@@ -54,3 +54,40 @@ My goal is to become a skilled smart contract auditor by deeply understanding re
 This repository will be continuously updated as I analyze more projects and improve my skills.
 
 ---
+
+
+
+
+
+
+# Smart Contract Audit Study – Index
+
+## 1. RootChainManager.sol (Ethereum)
+
+* **depositFor(user, rootToken, depositData)** – main deposit entry
+* **_depositFor(...)** – internal deposit logic
+* Later: `_syncState`, `_mapToken`
+
+## 2. Predicate Contracts
+
+* **ERC20Predicate  – token-specific handling on deposit
+
+## 3. Child Tokens (Polygon)
+
+* **ChildERC20 – mint & burn on Polygon
+
+## 4. Withdraw / Exit
+
+* **exit(bytes inputData)** – user exit
+* `_processExit` – proof verification, double exit protection
+
+---
+
+**Notes:**
+
+* Start: `RootChainManager.sol → depositFor → _depositFor`
+* Focus: logic, flow, security, interactions
+* No new code is written, only analysis
+
+---
+
