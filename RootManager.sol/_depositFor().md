@@ -15,8 +15,23 @@ function depositFor(
 
 
 What this function actually do?
-This function is the first step in sending tokens to Polygon. It stores all transaction data and ensures that the provided token is registered and valid for deposit.
 
+This function is the first step in sending tokens to Polygon. It stores all transaction data and ensures that the provided token is registered and valid for deposit.
+-----------------------------------------------------------
 Invariants: All data in the parameter always must be true.
+---------------------------------------------------------------
+
+
+<img width="523" height="446" alt="image" src="https://github.com/user-attachments/assets/e34e6037-8581-4674-aa21-8277f4fc32e1" />
+
+
+
+
+
+
+
+
+
+
 
 
