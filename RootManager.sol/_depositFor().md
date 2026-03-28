@@ -34,7 +34,22 @@
         bytes memory syncData = abi.encode(user, rootToken, depositData);
         _stateSender.syncState(
             childChainManagerAddress,
-            abi.encode(DEPOSIT, syncData)
-        );
-    }
+            abi.encode(DEPOSIT, syncData)    }
 ```
+What this function actually do?
+
+Checks whether deposits are disabled
+Checks whether the token is registered
+Ensures the token type matches a valid predicate
+Ensures the user address is valid
+Calls the predicate contract to lock tokens
+
+Invariants:
+ootToChildToken[rootToken] != 0 && tokenToType[rootToken] != 0
+typeToPredicate[tokenType] != 0
+user != address(0)
+ITokenPredicate.lockTokens() must succeed
+ _stateSender.syncState() must be called after successful lockTokens
+
+Vurnerabillity:
+ 
