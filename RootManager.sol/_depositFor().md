@@ -1,17 +1,6 @@
 ```solidity
 
-   function _depositEtherFor(address user) private {
-        bytes memory depositData = abi.encode(msg.value);
-        _depositFor(user, ETHER_ADDRESS, depositData);
-
-        // payable(typeToPredicate[tokenToType[ETHER_ADDRESS]]).transfer(msg.value);
-        // transfer doesn't work as expected when receiving contract is proxified so using call
-        (bool success, /* bytes memory data */) = typeToPredicate[tokenToType[ETHER_ADDRESS]].call{value: msg.value}("");
-        if (!success) {
-            revert("RootChainManager: ETHER_TRANSFER_FAILED");
-        }
-    }
-
+  
     function _depositFor(
         address user,
         address rootToken,
