@@ -21,4 +21,3 @@ What this function actually do?
 Invariants:
 This function can be called only by MANAGE_ROLE;
 
-<a href="gmail.com">CLICK CLICK URU URU URU</a>
