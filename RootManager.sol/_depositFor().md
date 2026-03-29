@@ -52,4 +52,6 @@ ITokenPredicate.lockTokens() must succeed
  _stateSender.syncState() must be called after successful lockTokens
 
 Vurnerabillity:
- 
+ Who would have happened if there had been no inspections?
+
+
