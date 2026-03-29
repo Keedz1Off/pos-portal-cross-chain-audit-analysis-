@@ -51,7 +51,12 @@ user != address(0)
 ITokenPredicate.lockTokens() must succeed
  _stateSender.syncState() must be called after successful lockTokens
 
-Vurnerabillity:
- Who would have happened if there had been no inspections?
+Vurnerabillitys  :
+
+<img width="1010" height="309" alt="image" src="https://github.com/user-attachments/assets/8630182d-e149-4edc-8b1b-f0114b2d5f8a" />
+
+
+
+ 
 
 
