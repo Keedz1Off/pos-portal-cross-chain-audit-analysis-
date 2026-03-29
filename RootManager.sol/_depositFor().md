@@ -1,3 +1,6 @@
+
+![Uploading ChatGPT Image 29 de març del 2026, 21_46_30.png…]()
+
 ```solidity
 
   
