@@ -21,4 +21,4 @@ What this function actually do?
 Invariants:
 This function can be called only by MANAGE_ROLE;
 
-<b>SOMETHING</b>
+<button> INVARIANTS </button>
