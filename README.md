@@ -75,7 +75,7 @@ This repository will be continuously updated as I analyze more projects and impr
 ## 2. Predicate Contracts
 
 * **ERC20Predicate  – token-specific handling on deposit
-* <a href="gmail.com">CLICK CLICK URU URU URU</a>
+* <a href="https://github.com/Keedz1Off/pos-portal-cross-chain-audit-analysis-/blob/main/ERC20Predicate.md">CLICK CLICK URU URU URU</a>
 
 
 ## 3. Child Tokens (Polygon)
