@@ -1,5 +1,6 @@
 
-![Uploading ChatGPT Image 29 de març del 2026, 21_46_30.png…]()
+
+<img width="1536" height="1024" alt="ChatGPT Image 29 de març del 2026, 21_46_30" src="https://github.com/user-attachments/assets/75447793-3a0f-434a-a858-958d24bfd0ba" />
 
 ```solidity
 
