@@ -17,6 +17,8 @@
 ```
 
 What this function actually do?
+The function moves the user's tokens to the predicate contract,
+thereby locking them on Ethereum before the Polygon mint.
 
 Invariants:
 This function can be called only by MANAGE_ROLE;
