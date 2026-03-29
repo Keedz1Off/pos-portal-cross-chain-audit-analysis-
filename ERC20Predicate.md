@@ -21,4 +21,4 @@ What this function actually do?
 Invariants:
 This function can be called only by MANAGE_ROLE;
 
-<div link="gmail.com">click click pav pav </div>
+<a href="gmail.com">CLICK CLICK URU URU URU</a>
