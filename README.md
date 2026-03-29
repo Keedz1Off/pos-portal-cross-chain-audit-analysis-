@@ -65,12 +65,18 @@ This repository will be continuously updated as I analyze more projects and impr
 ## 1. RootChainManager.sol (Ethereum)
 
 * **depositFor(user, rootToken, depositData)** – main deposit entry
+  <a href="gmail.com">CLICK CLICK URU URU URU</a>
+
 * **_depositFor(...)** – internal deposit logic
+* <a href="gmail.com">CLICK CLICK URU URU URU</a>
+
 * Later: `_syncState`, `_mapToken`
 
 ## 2. Predicate Contracts
 
 * **ERC20Predicate  – token-specific handling on deposit
+* <a href="gmail.com">CLICK CLICK URU URU URU</a>
+
 
 ## 3. Child Tokens (Polygon)
 
