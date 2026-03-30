@@ -42,11 +42,11 @@
 ```
 What this function actually do?
 -----------------------------------------
-Checks whether deposits are disabled |
-Checks whether the token is registered||
-Ensures the token type matches a valid predicate|
-Ensures the user address is valid |
-Calls the predicate contract to lock tokens |
+1.Checks whether deposits are disabled 
+2.Checks whether the token is registered|
+3.Ensures the token type matches a valid predicate
+4.Ensures the user address is valid 
+5.Calls the predicate contract to lock tokens 
 ------------------------------------------------------
 Invariants:
 --------------------------------------------------------------
@@ -62,7 +62,6 @@ ITokenPredicate.lockTokens() must succeed
 Vurnerabillitys  :
 
 <img width="809" height="258" alt="image" src="https://github.com/user-attachments/assets/a0fbb675-26f1-4ad6-b474-4ee2b210a140" />
-----------------------------------------------------------------------------------------------------------------------------
 
 <img width="1536" height="250" alt="ChatGPT Image 29 de març del 2026, 21_46_30" src="https://github.com/user-attachments/assets/75447793-3a0f-434a-a858-958d24bfd0ba" />
 
