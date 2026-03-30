@@ -35,11 +35,11 @@ Wht this function actually do?
 3. If anything else, revert(INVALID_SYNC_TYPE).
 
 
- <b>Invariants: </b>
+ <b>Invariants: </b> ❗❗❗
 
 syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 -----------------------------------------------------------------
-<b>vulnerabilitys:</b>![LittlePillsGIF](https://github.com/user-attachments/assets/06b61416-4336-4824-9cab-9796368f9f16)
+<b>vulnerabilitys:</b>❗❗❗
 
 |explication| vulnerability | solution |
 |-----------|-----------|-----------|
