@@ -42,9 +42,9 @@ syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 
 |explication| vulnerability | solution |
 |-----------|-----------|-----------|
-| Ячейка 1  | Ячейка 2  | Ячейка 3  |
-| Ячейка 4  | Ячейка 5  | Ячейка 6  |
-| Ячейка 4  | Ячейка 5  | Ячейка 6  |
+| Ячейка 1 | Centralization Risk  | Ячейка 3  |
+| Ячейка 4  | Missing address(0) validation  | Ячейка 6  |
+| Ячейка 4  | Missing syncData validation  | Ячейка 6  |
 
 
 ------------------------------
