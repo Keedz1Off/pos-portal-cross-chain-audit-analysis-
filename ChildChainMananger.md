@@ -31,9 +31,10 @@ Wht this function actually do?
 1.If  syncData is "DEPOSIT" mints tokens to user on L2.
 ------------------------------------------------------------------
 2.If syncData is "MAP_TOKEN" registers tokens on L2.
----------------------------------------------------
+--------------------------------------------------------------
 3. If anything else, revert(INVALID_SYNC_TYPE).
-----------------------------------------------------------------
+
+
  <b>Invariants: </b>
 
 syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
