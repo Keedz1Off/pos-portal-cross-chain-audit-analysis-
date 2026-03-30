@@ -52,7 +52,7 @@
 -----------------------------------------------
 5.Calls the predicate contract to lock tokens 
 ---------------------------------------------------
-Invariants:
+<b>Invariants:</b>
 
 rootToChildToken[rootToken] != 0 && tokenToType[rootToken] != 0
 ---------------------------------------------------------------
