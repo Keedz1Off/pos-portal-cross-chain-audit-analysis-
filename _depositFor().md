@@ -64,7 +64,7 @@ ITokenPredicate.lockTokens() must succeed
  _stateSender.syncState() must be called after successful lockTokens
 ------------------------------------------------------------------------------
 
-Vurnerabillitys  :
+<b color="red">Vurnerabillitys:</b>
 
 <img width="809" height="258" alt="image" src="https://github.com/user-attachments/assets/a0fbb675-26f1-4ad6-b474-4ee2b210a140" />
 
