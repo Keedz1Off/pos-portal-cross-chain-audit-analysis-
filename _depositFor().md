@@ -40,7 +40,7 @@
             childChainManagerAddress,
             abi.encode(DEPOSIT, syncData)    }
 ```
-What this function actually do?
+<b>What this function actually do?</b>
 
 1.Checks whether deposits are disabled 
 ------------------------------------------
