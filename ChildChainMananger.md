@@ -38,7 +38,8 @@ Wht this function actually do?
 
 syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 -----------------------------------------------------------------
-<b>vulnerabilitys:</b>
+<b>vulnerabilitys:</b>![LittlePillsGIF](https://github.com/user-attachments/assets/06b61416-4336-4824-9cab-9796368f9f16)
+
 |explication| vulnerability | solution |
 |-----------|-----------|-----------|
 | Ячейка 1  | Ячейка 2  | Ячейка 3  |
