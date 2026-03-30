@@ -21,6 +21,8 @@
             revert("ChildChainManager: INVALID_SYNC_TYPE");
         }
     }
+     emit TokenUnmapped(rootToken, childToken);
+    }
 
 ```
 
@@ -41,19 +43,8 @@ syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 | Ячейка 4  | Ячейка 5  | Ячейка 6  |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-        emit TokenUnmapped(rootToken, childToken);
-    }
+------------------------------
+DEPOSIT FLOW FINISHED
+-----------------------------
+<b>next:</b>
+<a href="">WITHDRAW</a>
