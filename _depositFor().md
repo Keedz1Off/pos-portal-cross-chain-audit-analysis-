@@ -57,7 +57,8 @@ ITokenPredicate.lockTokens() must succeed
 
 Vurnerabillitys  :
 
-<img width="1010" height="309" alt="image" src="https://github.com/user-attachments/assets/8630182d-e149-4edc-8b1b-f0114b2d5f8a" />
+<img width="809" height="258" alt="image" src="https://github.com/user-attachments/assets/a0fbb675-26f1-4ad6-b474-4ee2b210a140" />
+
 
 
 
