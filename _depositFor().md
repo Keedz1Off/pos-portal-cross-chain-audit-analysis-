@@ -43,9 +43,13 @@
 What this function actually do?
 
 1.Checks whether deposits are disabled 
-2.Checks whether the token is registered|
+------------------------------------------
+2.Checks whether the token is registered
+-----------------------------------------
 3.Ensures the token type matches a valid predicate
+-----------------------------------------------
 4.Ensures the user address is valid 
+-----------------------------------------------
 5.Calls the predicate contract to lock tokens 
 ---------------------------------------------------
 Invariants:
