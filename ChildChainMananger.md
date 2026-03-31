@@ -42,7 +42,7 @@ syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 
 |explication| vulnerability | solution |
 |-----------|-----------|-----------|
-ddddddddddd
+ | Use of devices that should not be available, that is STATE_SYNCER_ROLE capabilities used by a hacker.| Centralization Risk  | only(STATE_SYNCER_ROLE)|
 |-----------|-----------|-----------|
 
  | Use of devices that should not be available, that is STATE_SYNCER_ROLE capabilities used by a hacker.| Centralization Risk  | only(STATE_SYNCER_ROLE)|
