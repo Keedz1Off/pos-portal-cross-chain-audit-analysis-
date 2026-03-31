@@ -42,9 +42,10 @@ syncType must be or "DEPOSIT" or "MAP_TOKEN", otherwise revert.
 
 |explication| vulnerability | solution |
 |-----------|-----------|-----------|
-| Ячейка 1 | Centralization Risk  | Ячейка 3  |
-| Ячейка 4  | Missing address(0) validation  | Ячейка 6  |
-| Ячейка 4  | Missing syncData validation  | Ячейка 6  |
+| 
+Use of devices that should not be available, that is STATE_SYNCER_ROLE capabilities used by a hacker.| Centralization Risk  | only(STATE_SYNCER_ROLE)|
+|The contract receives "garbage" (invalid data type), but instead of throwing an error (revert), it completes the transaction with the Success status.  |Silent Failure| if..., else if..., else revert("...")  |
+
 
 
 ------------------------------
