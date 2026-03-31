@@ -7,8 +7,8 @@
 }
 ```
 <b> What this function actually do? </b>
- This function burns tokens of receiver.
 ------------------------------------------
+ This function burns tokens of receiver.
 
 <b>RootChainMananger.sol</b>
 
