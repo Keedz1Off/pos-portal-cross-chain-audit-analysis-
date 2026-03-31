@@ -5,7 +5,9 @@
         _burn(_msgSender(), amount);
     }
 }
-
+-----------------------------------------
+ This function burns tokens of receiver.
+------------------------------------------
 ```
 
 <b>RootChainMananger.sol</b>
